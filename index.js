@@ -1,4 +1,4 @@
-require('./keep-alive')(); // ← دي ضرورية جدًا
+require('./keep-alive'); // ← دي ضرورية جدًا
 const mineflayer = require('mineflayer');
 
 function createBot() {
