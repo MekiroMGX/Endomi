@@ -3,8 +3,8 @@ const mineflayer = require('mineflayer');
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'endomi.falixsrv.me',
-    port: 27739,
+    host: 'endomi.aternos.me',
+    port: 19720,
     username: 'Endomi',
     version: '1.21.4'
   });
