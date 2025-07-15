@@ -7,8 +7,8 @@ setInterval(() => {
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'endomi.aternos.me',
-    port: 19720,
+    host: 'endomi.falixsrv.me',
+    port: 27739,
     username: 'Endomi',
     version: '1.21.4'
   });
