@@ -1,6 +1,10 @@
 require('./keep-alive'); // ← دي ضرورية جدًا
 const mineflayer = require('mineflayer');
 
+setInterval(() => {
+  require('https').get('https://inc-ailsun-mekiromgx-5a8125c1.koyeb.app/');
+}, 280000); // كل 4 دقايق و40 ثانية
+
 function createBot() {
   const bot = mineflayer.createBot({
     host: 'endomi.aternos.me',
